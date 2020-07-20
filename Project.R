@@ -75,7 +75,7 @@ autoplot(bop1) +
   autolayer(meanf(bop1, h=500),
             series="Mean", PI=FALSE) +
   autolayer(rwf(bop1, h=500),
-            series="Naïve", PI=FALSE) +
+            series="NaÃ¯ve", PI=FALSE) +
   autolayer(rwf(bop1, drift=TRUE, h=500),
             series="Drift", PI=FALSE) +
   ggtitle("brent_oil_prices(simple forecasting methods)") +
@@ -117,7 +117,7 @@ autoplot(bop2) +
   autolayer(meanf(bop2, h=5),
             series="Mean", PI=FALSE) +
   autolayer(rwf(bop2, h=5),
-            series="Naïve", PI=FALSE) +
+            series="NaÃ¯ve", PI=FALSE) +
   autolayer(rwf(bop2, drift=TRUE, h=5),
             series="Drift", PI=FALSE) +
   ggtitle("brent_oil_prices(simple forecasting methods by year)") +
@@ -159,7 +159,7 @@ autoplot(bop3) +
   autolayer(meanf(bop3, h=5),
             series="Mean", PI=FALSE) +
   autolayer(rwf(bop3, h=5),
-            series="Naïve", PI=FALSE) +
+            series="NaÃ¯ve", PI=FALSE) +
   autolayer(rwf(bop3, drift=TRUE, h=5),
             series="Drift", PI=FALSE) +
   ggtitle("brent_oil_prices(simple forecasting methods by month)") +
